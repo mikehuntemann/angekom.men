@@ -35,7 +35,7 @@ Videoslots:
 - 
   date: 2023-01-04
   title: ' Sousan Nematizadeh'
-  format: ""
+  format: interview
   description: >
     Susan Nematizadeh berichtet von den
     Umständen, wie aus ihrem geplanten
@@ -45,7 +45,7 @@ Videoslots:
 - 
   date: 2023-01-04
   title: Sara Hossaini
-  format: ""
+  format: interview
   description: >
     Sara Hosseini gibt uns einen
     persönlichen Einblick in ihr Zimmer,
