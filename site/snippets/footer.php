@@ -1,17 +1,27 @@
 
 <div class="order-last">
 <div class=" max-w-4xl mx-auto py-4 px-8">
-  <div class="max-w-sm pb-12">
-      <div class="flex items-center justify-between sm:justify-start">
+  <div class="">
+      <div class="flex items-center justify-between sm:justify-start w-1/2 float-left pr-12">
         <img class="max-h-screen w-full"src="<?= $site->page('info')->image()->url() ?>">
       </div>
     </div>
+    <ul class="w-1/2 float-right text-sm">
+      <li class="hover:underline"><a href="" target="_blank">Familienzentrum Lighthouse – ein Treffpunkt für alle e.V.</a></li>
+      <li class="hover:underline"><a href="" target="_blank">Medienprojektzentrum Offener Kanal Kassel</a></li>
+      <li class="hover:underline"><a href="" target="_blank">Gemeinde Lohfelden</a></li>
+      <li class="hover:underline"><a href="" target="_blank">Türkische Gemeinde in Deutschland e.V.</a></li>
+      <li class="hover:underline"><a href="" target="_blank">MeinLand</a></li> 
+      <li class="hover:underline"><a href="" target="_blank">Kultur macht stark – Bündnisse für Bildung</a></li> 
+      <li class="hover:underline"><a href="" target="_blank">Bundesministeriums für Bildung und Forschung</a></li> 
+    </ul>
   <div class="font-examen-text-regular text-center sm:text-left text-sm sm:text-lg">
-    <ul class="inline-flex pb-4 ">
+    <ul class="inline-flex pb-4 pt-12 ">
       <li class="text-ex-dark pr-4">© 2023</li>
-      <li class="text-ex-dark pr-4 uppercase hover:underline"><a href="https://www.kunsthochschulekassel.de/service/datenschutz.html" target="_blank">Datenschutz</a></li>
-      <li class="text-ex-dark pr-4 uppercase hover:underline"><a href="https://www.kunsthochschulekassel.de/service/impressum.html" target="_blank">Impressum</a></li>
+      <!--- <li class="text-ex-dark pr-4 uppercase hover:underline"><a href="https://www.kunsthochschulekassel.de/service/datenschutz.html" target="_blank">Datenschutz</a></li> --->
+      <li class="text-ex-dark pr-4 uppercase hover:underline"><a href="http://familienzentrum-lighthouse.de/impressum.html" target="_blank">Impressum</a></li>
     </ul>
   </div>
+
 </div>
 </div>

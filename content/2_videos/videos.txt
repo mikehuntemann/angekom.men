@@ -1,0 +1,82 @@
+Title: Videos
+
+----
+
+Info: ...
+
+----
+
+Videoslots:
+
+- 
+  date: 2023-01-04
+  title: Ich wünsche dir..
+  description: >
+    In diesem Beitrag reflektieren die
+    Jugendlichen, was sie persönlich
+    brauchen, um sich wohlzufühlen.
+    Außerdem ging es in dem Workshop darum
+    zu überlegen, was die Jugendlichen
+    anderen Menschen wünschen könnten, die
+    gerade in Deutschland angekommen sind.
+  link: 'https://www.mediathek-hessen.de/embed?v=27519#'
+- 
+  date: 2023-01-04
+  title: Zoreh Alifar
+  description: >
+    Zoreh Alifar berichtet von den
+    Schwierigkeiten ihrer Flucht aus dem
+    Iran nach Deutschland und welche
+    Wünsche sie für ihre Zukunft in
+    Deutschland hat.
+  link: 'https://www.mediathek-hessen.de/embed?v=27520#'
+- 
+  date: 2023-01-04
+  title: ' Sousan Nematizadeh'
+  description: >
+    Susan Nematizadeh berichtet von den
+    Umständen, wie aus ihrem geplanten
+    Urlaub ein ungeplanter, langfristiger
+    Aufenthalt in Deutschland geworden ist.
+  link: 'https://www.mediathek-hessen.de/embed?v=27516#'
+- 
+  date: 2023-01-04
+  title: Sara Hossaini
+  description: >
+    Sara Hosseini gibt uns einen
+    persönlichen Einblick in ihr Zimmer,
+    das sie sich mit ihrer Mutter und
+    Schwester teilt und besonders
+    eingerichtet hat. Außerdem wurden wir
+    zum Essen eingeladen und konnten
+    anschließend von ihr erfahren, welche
+    Wünsche und Ziele sie für sich und
+    ihre Familie in Deutschland hat.
+  link: 'https://www.mediathek-hessen.de/embed?v=27513#'
+
+----
+
+Videos:
+
+- 
+  date: 2023-01-04
+  title: Ich wünsche dir...
+  description: >
+    In diesem Beitrag reflektieren die
+    Jugendlichen, was sie persönlich
+    brauchen, um sich wohlzufühlen.
+    Außerdem ging es in dem Workshop darum
+    zu überlegen, was die Jugendlichen
+    anderen Menschen wünschen könnten, die
+    gerade in Deutschland angekommen sind.
+  link: >
+    https://mediathek-hessen.de/medienview_27520_Mike-Huntemann-OK-Kassel-Angekommen-in-Deutschland.html
+- 
+  date: 2023-01-04
+  title: Testing
+  description: test test
+  link: ""
+
+----
+
+Uuid: urw6VHlYsDgDHGI6
