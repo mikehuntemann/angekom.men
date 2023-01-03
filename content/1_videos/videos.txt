@@ -11,6 +11,7 @@ Videoslots:
 - 
   date: 2023-01-04
   title: Ich wünsche dir..
+  format: beitrag
   description: >
     In diesem Beitrag reflektieren die
     Jugendlichen, was sie persönlich
@@ -23,6 +24,7 @@ Videoslots:
 - 
   date: 2023-01-04
   title: Zoreh Alifar
+  format: interview
   description: >
     Zoreh Alifar berichtet von den
     Schwierigkeiten ihrer Flucht aus dem
@@ -33,6 +35,7 @@ Videoslots:
 - 
   date: 2023-01-04
   title: ' Sousan Nematizadeh'
+  format: ""
   description: >
     Susan Nematizadeh berichtet von den
     Umständen, wie aus ihrem geplanten
@@ -42,6 +45,7 @@ Videoslots:
 - 
   date: 2023-01-04
   title: Sara Hossaini
+  format: ""
   description: >
     Sara Hosseini gibt uns einen
     persönlichen Einblick in ihr Zimmer,
