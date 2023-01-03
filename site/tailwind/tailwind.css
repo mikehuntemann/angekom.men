@@ -1,0 +1,41 @@
+/* purgecss start ignore */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+/* purgecss end ignore */
+
+@font-face {
+  font-family: "Arial Narrow";
+  src: local("Arial Narrow"), url(../fonts/arial-narrow.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Bloque Mono Regular";
+  src: url(../fonts/exam-bloque-mono-regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Bloque Mono Bold";
+  src: url(../fonts/exam-bloque-mono-bold.ttf) format('truetype');
+}
+
+@import "tailwindcss/utilities";
+/* ---- custom css and @apply components go here ---- */
+
+@layer utilities {
+  html, body {
+    min-height: 100%;
+  }
+
+  body {
+    @apply bg-white flex flex-col;
+  }
+
+  .hyphenate {
+    hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+}

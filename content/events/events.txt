@@ -1,0 +1,97 @@
+Title: Events
+
+----
+
+Info: Testing Event Text Box
+
+----
+
+Eventslots:
+
+- 
+  date: 2020-12-08
+  time: 19:30:00
+  location: https://us02web.zoom.us/j/83778552750
+  title: Eröffnung
+  description: >
+    Live Stream, Integer posuere erat a ante
+    venenatis dapibus posuere velit aliquet.
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit.
+    Maecenas faucibus mollis interdum.
+  infobox: |
+    Meeting-ID: 857 8110 2056
+    Kenncode: EXAMEN2020
+- 
+  date: 2020-12-09
+  time: 21:00:00
+  location: https://us02web.zoom.us/j/83392864216
+  title: And say the elephant responded
+  description: Screening Tanja-Kristine Böhme
+  infobox: |
+    Meeting-ID: 833 9286 4216
+    Kenncode: EXAMEN2020
+- 
+  date: 2020-12-12
+  time: 18:00:00
+  location: https://us02web.zoom.us/j/81572802860
+  title: Resonanztraum
+  description: >
+    Ein immersiver 360° Erlebnisraum und
+    Produktionsstudio
+  infobox: |
+    Meeting-ID: 815 7280 2860
+    Kenncode: EXAMEN2020
+- 
+  date: 2020-12-12
+  time: 21:00:00
+  location: https://us02web.zoom.us/j/81572802860
+  title: Screening Kerstin Rupprecht
+  description: ""
+  infobox: |
+    Meeting-ID: 815 7280 2860
+    Kenncode: EXAMEN2020
+- 
+  date: 2020-12-12
+  time: 23:00:00
+  location: https://us02web.zoom.us/j/81572802860
+  title: Konzert
+  description: ""
+  infobox: |
+    Meeting-ID: 815 7280 2860
+    Kenncode: EXAMEN2020
+- 
+  date: 2020-12-09
+  time: 19:00:00
+  location: https://us02web.zoom.us/j/89536264383
+  title: Comiclesung
+  description: |
+    David Weiss liest aus seinem Comic "Mustafa und die Bumbos" (ca. 5 Min)
+    Verena Kern liest aus ihrem Comic "Aufbruch" (ca. 12 Min)
+    Daniela Heller liest aus ihrem Comic "Pfostenloch" (ca. 14 Min)
+  infobox: |
+    Meeting-ID: 895 3626 4383
+    Kenncode: EXAMEN2020
+- 
+  date: 2020-12-13
+  time: 19:30:00
+  location: https://us02web.zoom.us/j/89536264383
+  title: Comics, Illustrationen und Sinnkrise
+  description: 'David, Daniela, Hannae, Verena und Jessi (alle Absolvent*innen aus der Klasse für Comic und Illustration) reden über ihren Prozess und trinken derweil alkoholische Getränke.'
+  infobox: |
+    Meeting-ID: 895 3626 4383
+    Kenncode: EXAMEN2020
+- 
+  date: 2020-12-16
+  time: 19:30:00
+  location: https://us02web.zoom.us/j/86268703455
+  title: Preisverleihung + Finissage
+  description: ""
+  infobox: |
+    Meeting-ID: 862 6870 3455
+    Kenncode: EXAMEN2020
+
+----
+
+Uuid: OlNetJqxpHgZZtF8

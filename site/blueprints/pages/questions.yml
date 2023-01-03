@@ -1,0 +1,21 @@
+title: Fragenkatalog
+
+fields:
+  questionary:
+    label: Fragenkatalog
+    type: structure
+    columns:
+      question:
+        width: 1/3
+      answer:
+        width: 2/3
+
+    fields:
+      question:
+        label: Frage
+        type: text
+      answer:
+        label: Antwort
+        type: textarea
+        size: medium
+
