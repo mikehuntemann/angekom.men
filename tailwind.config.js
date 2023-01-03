@@ -1,6 +1,6 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
-  purge: [
+  content: [
     "./site/templates/*.php",
     "./site/snippets/*.php",
     "./site/tailwind/*.css",
@@ -35,5 +35,7 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 };
