@@ -7,13 +7,13 @@
       </div>
     </div>
     <ul class="w-1/2 float-right text-sm">
-      <li class="hover:underline"><a href="" target="_blank">Familienzentrum Lighthouse – ein Treffpunkt für alle e.V.</a></li>
-      <li class="hover:underline"><a href="" target="_blank">Medienprojektzentrum Offener Kanal Kassel</a></li>
-      <li class="hover:underline"><a href="" target="_blank">Gemeinde Lohfelden</a></li>
-      <li class="hover:underline"><a href="" target="_blank">Türkische Gemeinde in Deutschland e.V.</a></li>
-      <li class="hover:underline"><a href="" target="_blank">MeinLand</a></li> 
-      <li class="hover:underline"><a href="" target="_blank">Kultur macht stark – Bündnisse für Bildung</a></li> 
-      <li class="hover:underline"><a href="" target="_blank">Bundesministeriums für Bildung und Forschung</a></li> 
+      <li class="hover:underline"><a href="http://familienzentrum-lighthouse.de/" target="_blank">Familienzentrum Lighthouse – ein Treffpunkt für alle e.V.</a></li>
+      <li class="hover:underline"><a href="https://www.lpr-hessen.de/medienprojektzentren/kassel/" target="_blank">Medienprojektzentrum Offener Kanal Kassel</a></li>
+      <li class="hover:underline"><a href="https://www.lohfelden.de/de/" target="_blank">Gemeinde Lohfelden</a></li>
+      <li class="hover:underline"><a href="https://www.tgd.de/" target="_blank">Türkische Gemeinde in Deutschland e.V.</a></li>
+      <li class="hover:underline"><a href="https://meinland.info/" target="_blank">MeinLand</a></li> 
+      <li class="hover:underline"><a href="http://www.kulturmachtstark-sh.de/" target="_blank">Kultur macht stark – Bündnisse für Bildung</a></li> 
+      <li class="hover:underline"><a href="https://www.bmbf.de/" target="_blank">Bundesministerium für Bildung und Forschung</a></li> 
     </ul>
   <div class="font-examen-text-regular text-center sm:text-left text-sm sm:text-lg">
     <ul class="inline-flex pb-4 pt-12 ">

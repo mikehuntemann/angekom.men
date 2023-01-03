@@ -580,20 +580,12 @@ video {
   width: 50%;
 }
 
-.w-3\/4 {
-  width: 75%;
-}
-
 .max-w-4xl {
   max-width: 56rem;
 }
 
 .max-w-md {
   max-width: 28rem;
-}
-
-.max-w-sm {
-  max-width: 24rem;
 }
 
 .items-center {
@@ -637,11 +629,6 @@ video {
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
-}
-
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
 
 .pt-20 {
