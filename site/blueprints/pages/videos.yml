@@ -13,10 +13,12 @@ fields:
         width: 1/6
       title:
         width: 1/6
+      format:
+        width: 1/6
       description:
         width: 1/3
       link:
-        width: 1/3
+        width: 1/6
 
 
     fields:
@@ -27,6 +29,13 @@ fields:
       title:
         label: Veranstaltung
         type: text
+      format:
+        label: Format
+        type: select
+        options:
+          interview: Interview
+          beitrag: Beitrag
+          ausflug: Ausflug
       description:
         label: Beschreibung
         type: textarea
