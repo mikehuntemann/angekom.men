@@ -1,0 +1,20 @@
+title: Banner Info
+
+fields:
+  bannertext:
+    label: Text
+    type: text
+    maxlength: 70
+  bannerbutton:
+    label: Call to Action
+    type: text
+    maxlength: 20
+  bannerurl:
+    label: Link to File
+    type: url
+  nextevent:
+    label: Event
+    type: select
+    options:
+      type: query
+      query: site.children.template("projects").children

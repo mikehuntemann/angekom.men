@@ -1,0 +1,29 @@
+Title: Banner
+
+----
+
+Bannertext: Unsere nächste Workshop-Reihe beginnt am
+
+----
+
+Bannerbutton: Jetzt Anmelden
+
+----
+
+Bannerurl: 
+
+----
+
+Nextevent: workshops/ws02-exkursion
+
+----
+
+Banneraction: 
+
+----
+
+Text: Unsere nächste Workshop-Reihe beginnt am 11. April
+
+----
+
+Uuid: XZYzVM97XUtHmn1g
