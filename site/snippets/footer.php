@@ -4,7 +4,10 @@
     <div class="">
         <div class="flex items-center justify-between sm:justify-start w-1/2 float-left pr-12">
           <a href="<?= $site->page('home') ?>">
-          <img class="max-h-screen w-full"src="<?= $site->page('info')->image()->url() ?>">
+          <img class="max-h-screen w-full"src="<?= $site
+            ->page('info')
+            ->image()
+            ->url() ?>">
         </a>
         </div>
       </div>
@@ -30,11 +33,13 @@
         <div class="Roboto text-center text-sm">
           <div class="text-indigo-400 font-semibold inline">Release v<?= $site->getCurrentVersion() ?> (<?= $site->getTimeSinceRelease() ?>)</div>
         </div>
-        <?php if($site->getTimeSinceRelease() !== $site->getTimeSinceContentUpdate()): ?>
+        <?php if (
+          $site->getTimeSinceRelease() !== $site->getTimeSinceContentUpdate()
+        ): ?>
         <div class="Roboto text-center text-sm">
           <div class="text-indigo-400 font-semibold inline">Content Update (<?= $site->getTimeSinceContentUpdate() ?>)</div>
         </div>
-        <?php endif?>
+        <?php endif; ?>
       </a>
     </div>
   </div>
