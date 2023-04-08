@@ -1,0 +1,10 @@
+title: Projects
+
+sections:
+  projects:
+    type: pages
+    template: project
+    layout: cards
+    image:
+      ratio: 16/9
+      cover: true
