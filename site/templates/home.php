@@ -28,7 +28,7 @@
       </div>
     </div>
   </div>
-  <?php snippet('all-events'); ?>
+  <?php snippet('workshop'); ?>
   <div class="order-3 sm:order-4 w-full pt-4 sm:pt-12">
     <div class="mx-auto max-w-4xl text-gray-200 px-6 sm:px-8 pt-8 pb-12 pr-0 sm:pr-10 text-lg ">
     <?php $videos = $site

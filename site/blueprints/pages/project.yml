@@ -6,6 +6,9 @@ tabs:
     preset: page
     pages: false
     fields:
+      theme:
+        label: Thema
+        type: text
       intro:
         label: Intro
         type: textarea
@@ -82,7 +85,7 @@ tabs:
         label: Beschreibung (Antrag?)
         type: textarea
         size: small
-      image:
+      groupphoto:
         width: 1/2
         extends: sections/image
         label: Gruppenbild
