@@ -57,9 +57,9 @@
     ->groupphoto()
     ->toFile()
     ->url() ?>">
-        <ul class=""> <!-- comma-list -->
+        <ul class="comma-list"> <!-- comma-list -->
         <?php foreach ($content->participants()->split() as $participant): ?>
-          <li class=" inline mx-6 text-ex-dark Roboto text-lg tracking-wide hyphenate">
+          <li class=" inline text-ex-dark Roboto text-lg tracking-wide hyphenate list-none">
             <?= page($participant)->title() ?></li>
         <?php endforeach; ?>
         </ul>

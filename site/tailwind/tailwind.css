@@ -43,4 +43,8 @@
   .comma-list li::after {
     content: ', ';
   }
+
+  .comma-list li:last-child::after {
+    content: '';
+  }
 }
