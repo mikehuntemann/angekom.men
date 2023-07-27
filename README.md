@@ -17,3 +17,6 @@ does not work, why?
 
 strftime depricated in 8.1
 `brew unlink php@8.1 && brew link --force --overwrite php@8.0`
+
+PHP Info
+`<div><?php phpinfo(); ?></div>`
