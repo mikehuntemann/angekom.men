@@ -1,0 +1,35 @@
+title: User
+
+columns:
+  left:
+    width: 1/2
+    fields:
+      name:
+        label: Vorname
+        type: text
+      lastname:
+        label: Nachname
+        type: text
+      info:
+        theme: positive
+        text: Suche die passende Flagge als Emoji!
+      country:
+        label: Land
+        type: text
+
+  right:
+    width: 1/2
+    fields:
+      website:
+        label: Website
+        type: url
+      fediverse:
+        label: Fediverse URL
+        type: url
+        icon: mastodon
+        placeholder: https://example.com/@username
+      instagram:
+        label: Instagram
+        type: text
+        icon: instagram
+        placeholder: username

@@ -45,7 +45,4 @@ assets/fonts/*
 
 # Content
 # ---------------
-content/1_workshops
-content/1_videos
-content/banner
-content/team
+content/*

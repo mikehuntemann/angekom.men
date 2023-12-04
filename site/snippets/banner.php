@@ -13,7 +13,9 @@
     </div>
     <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
       <p class="text-sm leading-6 text-gray-900">
-        <strong class="font-semibold">Angekommen 2023</strong>
+        <strong class="font-semibold"><?= $site
+          ->page('banner')
+          ->eventtype() ?></strong>
         <svg viewBox="0 0 2 2" class="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
           <circle cx="1" cy="1" r="1" />
         </svg>
@@ -25,14 +27,60 @@
           ->datestart()
           ->toDate('dd. MMMM') ?>
       </p>
+      <?php if (
+        $site
+          ->page('banner')
+          ->actionbutton()
+          ->toBool() === true
+      ): ?>
       <a href="<?= $site
         ->page('banner')
-        ->bannerurl() ?>" class="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">
+        ->bannerurl() ?>" target="_blank" class="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">
         <?= $site->page('banner')->bannerbutton() ?>
         <span aria-hidden="true">&rarr;</span>
       </a>
+      <?php endif; ?>
     </div>
     <div class="flex flex-1 justify-end">
     </div>
   </div>
+  
+    <?php if (
+      $site
+        ->page('banner')
+        ->showImage()
+        ->toBool() === true
+    ): ?>
+  <div class="max-w-4xl mx-auto px-8 pt-0 pb-32">
+    <div class="-ml-4 -mb-4">
+      <div class="pt-20 sm:pt-10 ">
+        <img class="max-h-screen w-full"src="<?= $site
+          ->page('banner')
+          ->projectCover()
+          ->toFile()
+          ->url() ?>">
+      </div>
+      <div class="flex justify-between sm:justify-start lg:justify-end ">
+        <div class="text-ex-dark Roboto text-lg tracking-wide pr-12 hyphenate pt-4 ">
+        <?= $site
+          ->page('banner')
+          ->eventDescription()
+          ->kt() ?>
+        </div>
+                <div class="text-ex-dark Roboto text-lg tracking-wide pr-12 hyphenate pt-4 ">
+        <?= $site
+          ->page('banner')
+          ->eventLocation()
+          ->kt() ?>
+        </div>
+        <div class="text-ex-dark Roboto text-lg tracking-wide pr-4 hyphenate pt-4 ">
+        <?= $site
+          ->page('banner')
+          ->eventStreet()
+          ->kt() ?>
+        </div>
+      </div>
+    </div>
+  </div>
+<?php endif; ?>
 <?php endif; ?>

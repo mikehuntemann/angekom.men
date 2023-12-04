@@ -2,19 +2,55 @@ Title: Banner
 
 ----
 
-Bannertext: Unsere nächste Workshop-Reihe beginnt am
+Toggle: true
 
 ----
 
-Bannerbutton: Jetzt Anmelden
+Eventtype: Ausstellung
 
 ----
 
-Bannerurl: 
+Bannertext: Unsere diesjährige Ausstellung eröffnet am
 
 ----
 
-Nextevent: workshops/ws02-exkursion
+Nextevent: workshops/ws05-ausstellung
+
+----
+
+Actionbutton: true
+
+----
+
+Bannerbutton: Jetzt vorbeischauen
+
+----
+
+Bannerurl: https://www.google.com/maps/place/Offener+Kanal+Kassel/@51.3182222,9.4874688,17z/data=!3m1!4b1!4m6!3m5!1s0x47bb3f4a38313e51:0x44acd5389cf20be1!8m2!3d51.3182222!4d9.4900437!16s%2Fg%2F1w15yjz3?hl=de&entry=ttu
+
+----
+
+Download: - file://nzxt0f6vup56iT4h
+
+----
+
+Showimage: true
+
+----
+
+Projectcover: - file://vZfZd2Rsd1cjbNkp
+
+----
+
+Eventdescription: <b>Ausstellungseröffnung</b><br>08. Dezember 2023, 18:00
+
+----
+
+Eventlocation: Medienprojektzentrum<br>Offener Kanal Kassel
+
+----
+
+Eventstreet: Rainer-Dierichs-Platz 1<br>34117 Kassel
 
 ----
 
