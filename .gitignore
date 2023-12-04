@@ -41,3 +41,11 @@ Icon
 /site/config/.license
 node_modules
 assets/fonts/*
+
+
+# Content
+# ---------------
+content/1_workshops
+content/1_videos
+content/banner
+content/team
