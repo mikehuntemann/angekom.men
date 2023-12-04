@@ -1,9 +1,10 @@
 <?php snippet('header'); ?>
 <body>
   <?php snippet('banner'); ?>
-  <div class="max-w-4xl mx-auto px-8 pt-20">
+  <!-- TODO: NAV HERE -->
+  <div class="max-w-4xl mx-auto px-8 pt-0">
     <div class="-ml-4 -mb-4">
-      <div class="pt-20 sm:pt-10 ">
+      <div class="pt-0 sm:pt-10 ">
         <img class="max-h-screen w-full"src="<?= $site
           ->page('info')
           ->image()
@@ -12,24 +13,25 @@
     </div>
   </div>
   <div class="w-full">
-  <img class="pt-16 pb-8 xl:px-24" src="../assets/png/logos.png">  
-</div>
-  <div class="order-2 sm:order-3 w-full pt-12">
+    <img class="pt-16 pb-8 xl:px-24 max-w-lg" src="../assets/png/logos.png">  
+  </div>
+
+
+  <div class="order-1 sm:order-2 w-full pt-12">
     <div class="mx-auto max-w-4xl text-gray-700 px-6 sm:px-8 px-12 sm:pb-20 pr-0 sm:pr-10 text-lg">
-      <!--- <div class="subpixel-antialiased -ml-2 text-white font-examen-headline-bold text-5xl sm:text-6xl tracking-widest text-bold pb-8">Info</div> --->
-        <div class="grid sm:inline-flex">
-          <div class="text-lg pr-4 px-20">
-            <?= $site
-              ->page('info')
-              ->text()
-              ->kt() ?>
-          </div>
+      <div class="grid sm:inline-flex">
+        <div class="text-lg pr-4 px-20">
+          <?= $site
+            ->page('info')
+            ->text()
+            ->kt() ?>
         </div>
       </div>
     </div>
   </div>
-  <?php snippet('workshop'); ?>
-  <div class="order-3 sm:order-4 w-full pt-4 sm:pt-12">
+  
+  <div class="order-4 sm:order-4 w-full pt-4 sm:pt-12">
+    <?php snippet('workshop'); ?>
     <div class="mx-auto max-w-4xl text-gray-200 px-6 sm:px-8 pt-8 pb-12 pr-0 sm:pr-10 text-lg ">
     <?php $videos = $site
       ->page('videos')

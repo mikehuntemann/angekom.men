@@ -7,13 +7,13 @@
   <!-- <?php dump($workshop); ?> -->
   
   <div class="mx-auto max-w-4xl text-gray-200 px-6 sm:px-8 pt-8 pb-12 pr-0 sm:pr-10 text-lg ">
-    <div class="py-12">
+    <div class="py-2">
       <div>
         <a href="<?= $workshop->url() ?>"><?= $workshop
   ->projectcover()
   ->toFile() ?></a>
       </div>
-      <div class="pt-12 pb-32">
+      <div class="pt-12 pb-4">
         <div class="ml-12 inline-block  my-1 px-4 py-1 bg-gray-300 uppercase rounded-lg shadow-md">
           <div class="text-ex-dark Roboto text-sm tracking-wide">
             <?= ucfirst($workshop->title()) ?>
