@@ -46,7 +46,7 @@ tabs:
             options:
               video: Video
               photo: Foto
-              kreativ: Kreativ
+              statement: Statement
           description:
             label: Beschreibung
             type: textarea
@@ -92,3 +92,8 @@ tabs:
         options:
           type: query
           query: site.children.template("team").children
+      description:
+        label: Beschreibung (Antrag)
+        width: 1/2
+        type: textarea
+        size: small
