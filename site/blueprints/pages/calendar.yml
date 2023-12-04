@@ -1,0 +1,45 @@
+title: Events
+fields:
+  title:
+    label: Title
+    type: text
+    readonly: true
+  calendar:
+    label: Events
+    type: structure
+    sortBy: _begin_date asc
+    fields:
+      summary:
+        label:
+          de: Titel
+          en: Title
+        type: text
+        required: false
+      description:
+        label:
+          de: Beschreibung
+          en: Description
+        type: text
+        required: false
+      _begin_date:
+        label:
+          en: Start date
+          de: Start Datum
+        type: date
+        display: DD.MM.YYYY
+        required: true
+      _begin_time:
+        label: Start time
+        type: time
+        interval: 15
+        required: false
+      _end_date:
+        label: End date
+        type: date
+        display: DD.MM.YYYY
+        required: false
+      _end_time:
+        label: End time
+        type: time
+        interval: 15
+        required: false

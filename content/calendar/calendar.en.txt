@@ -1,0 +1,15 @@
+Title: Calendar
+
+----
+
+Calendar: 
+-
+  summary: My Event
+  _begin_date: 12/14/2014
+  _begin_time: 10:00
+  _end_date: 12/14/2014
+  _end_time: 15:00
+- 
+  summary: My supercool event for the whole day
+  description: This wil be a nice event!
+  _begin_date: 10/01/2014

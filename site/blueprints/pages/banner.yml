@@ -1,0 +1,83 @@
+title: Banner Info
+
+fields:
+  toggle:
+    width: 1/6
+    label: Banner anzeigen?
+    type: toggle
+    text:
+      - 'nein'
+      - 'ja'
+  eventtype:
+    width: 1/4
+    label: Format
+    type: select
+    options:
+      - Workshop
+      - Ausflug
+      - Ausstellung
+      - Info
+  bannertext:
+    width: 1/2
+    label: Text
+    type: text
+    maxlength: 70
+  nextevent:
+    width: 1/3
+    label: Nächstes Event
+    type: select
+    options:
+      type: query
+      query: site.children.template("projects").children
+  actionbutton:
+    width: 1/6
+    label: Button?
+    type: toggle
+    text:
+      - 'nein'
+      - 'ja'
+  bannerbutton:
+    width: 1/6
+    label: Call to Action
+    type: text
+    maxlength: 20
+  bannerurl:
+    width: 1/2
+    label: Link to File
+    type: url
+  download:
+    width: 1/3
+    label: Anmeldung
+    type: files
+    min: 0
+    max: 1
+  showImage:
+    width: 1/6
+    label: Bild anzeigen?
+    type: toggle
+    text:
+      - 'nein'
+      - 'ja'
+  projectCover:
+    width: 1/3
+    extends: sections/image
+    label: Bild
+    min: 0
+    max: 1
+    image:
+      cover: true
+  eventDescription:
+    width: 1/2
+    label: Text
+    type: text
+    maxlength: 180
+  eventLocation:
+    width: 1/2
+    label: Text
+    type: text
+    maxlength: 180
+  eventStreet:
+    width: 1/2
+    label: Text
+    type: text
+    maxlength: 180

@@ -1,0 +1,35 @@
+Title: Calendar
+
+----
+
+Calendar:
+
+- 
+  summary: My supercool event for the whole day
+  description: This wil be a nice event!
+  _begin_date: 2014-10-01
+  _begin_time: ""
+  _end_date: ""
+  _end_time: ""
+- 
+  summary: My Event
+  description: ""
+  _begin_date: 2014-12-14
+  _begin_time: 10:00:00
+  _end_date: 2014-12-14
+  _end_time: 15:00:00
+
+----
+
+Calender:
+
+- 
+  _begin_date: 2021-10-11
+  _begin_time: ""
+  _end_date: ""
+  _end_time: ""
+  summary: hey
+
+----
+
+Uuid: owmcdBW642Z9BA47
