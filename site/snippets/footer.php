@@ -27,7 +27,7 @@
         <li class="text-ex-dark pr-4 uppercase hover:underline"><a href="http://familienzentrum-lighthouse.de/impressum.html" target="_blank">Impressum</a></li>
       </ul>
     </div>
-
+    <!--
     <div>
       <a href="https://github.com/mikehuntemann/angekommen-website/releases/">
         <div class="Roboto text-center text-sm">
@@ -41,6 +41,7 @@
         </div>
         <?php endif; ?>
       </a>
-    </div>
+    </div> 
+        -->
   </div>
 </div>
